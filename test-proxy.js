@@ -110,9 +110,9 @@ async function testOllamaGenerate() {
     console.log('Using API key:', API_KEY);
     
     const requestData = JSON.stringify({
-      model: "llama2",
+      model: "llama3.2",
       prompt: "Hello, how are you?",
-      stream: false
+      stream: true
     });
     
     const options = {
