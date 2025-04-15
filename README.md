@@ -68,7 +68,7 @@ curl -X GET http://localhost:3000/api/tags \
 curl -X POST http://localhost:3000/api/generate \
   -H "Authorization: Bearer your-secret-api-key-here" \
   -H "Content-Type: application/json" \
-  -d '{"model":"llama2","prompt":"Hello, how are you?","stream":false}'
+  -d '{"model":"llama3.2","prompt":"Hello, how are you?","stream":true}'
 ```
 
 ### Health Check
